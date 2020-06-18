@@ -9,7 +9,7 @@ spec:
   chart:
     repository: https://github.com/istio/istio
     name: istio-operator
-    version: 1.6.2
+    ref: 1.6.2
     path: manifests/charts/istio-operator
   values:
     hub: docker.io/istio
