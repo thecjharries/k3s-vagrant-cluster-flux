@@ -11,7 +11,7 @@ spec:
     name: istio-operator
     ref: 1.6.2
     path: manifests/charts/istio-operator
-  timeout: 5m
+  timeout: 300
   values:
     hub: docker.io/istio
     tag: 1.6.2
