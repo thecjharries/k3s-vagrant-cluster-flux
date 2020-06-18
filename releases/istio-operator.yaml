@@ -11,3 +11,8 @@ spec:
     name: istio-operator
     version: 1.6.2
     path: manifests/charts/istio-operator
+  values:
+    hub: docker.io/istio
+    tag: 1.6.2
+    operatorNamespace: istio-operator
+    istioNamespace: istio-system
