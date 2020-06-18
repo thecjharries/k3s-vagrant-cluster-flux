@@ -9,4 +9,5 @@ spec:
   chart:
     git: https://github.com/containous/traefik-helm-chart
     name: traefik
+    path: traefik
     version: 2.2.1
