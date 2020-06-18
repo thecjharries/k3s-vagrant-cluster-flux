@@ -13,5 +13,6 @@ spec:
   values:
     ingress:
       enabled: true
+      path: /podinfo
       annotations:
         kubernetes.io/ingress.class: "traefik"
