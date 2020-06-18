@@ -3,7 +3,5 @@ kind: IstioOperator
 metadata:
   namespace: istio-system
   name: istiocontrolplane
-  annotations:
-    fluxcd.io/automated: true
 spec:
   profile: default
