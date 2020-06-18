@@ -7,6 +7,6 @@ metadata:
     fluxcd.io/automated: true
 spec:
   chart:
-    repository: https://github.com/containous/traefik-helm-chart
+    git: https://github.com/containous/traefik-helm-chart
     name: traefik
     version: 2.2.1
