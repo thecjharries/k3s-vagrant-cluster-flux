@@ -6,7 +6,6 @@ metadata:
   annotations:
     fluxcd.io/automated: true
 spec:
-  releaseName: podinfo-0.0.0
   chart:
     repository: https://stefanprodan.github.io/podinfo
     name: podinfo
