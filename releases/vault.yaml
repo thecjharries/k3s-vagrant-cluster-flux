@@ -1,0 +1,12 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: vault
+  namespace: vault
+  annotations:
+    fluxcd.io/automated: true
+spec:
+  chart:
+    repository: https://helm.releases.hashicorp.com
+    name: vault
+    version: 0.6.0
