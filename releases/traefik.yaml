@@ -1,0 +1,12 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: traefik
+  namespace: default
+  annotations:
+    fluxcd.io/automated: true
+spec:
+  chart:
+    repository: https://github.com/containous/traefik-helm-chart
+    name: traefik
+    version: 2.2.1
